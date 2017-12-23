@@ -101,6 +101,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
 		<header-file src="src/ios/Firebase/Firebase.h" />
 
+		<framework src="GoogleTagManager" type="podspec" spec="~> 6.0" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseAnalytics.framework" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework" />
